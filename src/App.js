@@ -21,6 +21,8 @@ function App() {
         <Card
           /* prop ismi = { değişken } */
           author={recipeAuthor}
+          recipeItem={recipeItem}
+          like={likeCount}
         />
       </header>
     </div>
